@@ -93,7 +93,63 @@ Facilita consulta pois possui dados centralzado. -> Modelo Dimensinal, grande en
 
 ## ANALISE/ML/IA
 ### Machine Learning
-- Uso de algoritmos para treinar sistemas a identificar padrões e tomar decisões com base nos dados.
+- Dados sao usados para aprender
+- aprendizado atraves de um modelo
+- apredizado deve ser melhorado e deve ser medido
+- - ex : Marketing(qual cliente comprou ) Rh (qual o melhot candidato) Financas (prever vendas)
+- Dividido basicamente em 4 tarefas:
+- Classificacao
+- - Prever se chove (True False), tipo de animal(dog, cat, rat)
+- Regressao
+- - prever numero (quando o mkt vai vender a partir de um investimento)
+- AgrupamentoA :grupar por caracteristicas semmelhantes pode ser Difuso = Cada elemento pertence o grupo segundo uma probabilidade. Modelo Hierarquico = permite que um grupo tenha subgrupos
+- Associcao
+- - Buscar elementos com caracateriscas em comum (carrinho de compra, quem compra a compra b)
+ 
+ Classificao e regressao sao supervisionados (possui classe [resultado])
+ Agrupamento e Associcao sao nao supervisionados
+
+ Tarefa é diferente de tipo algoritimo que é diferente de Algoritimo
+ ex: Classificacao != Bayes =! Naiive Bayes
+
+ PREVISAO X AVALIACAO
+ metodo HoldOut
+ dados separa em dois grupos= 70% e 30%. 70% vao para treino -> classficador que gerado modelo. 30% vao pra testes e depos mesmo modelo gerado pelo classificador
+ tem a previsao e pode se comprar a avaliacao.
+ Classificador deve ser genérico, nao deve ser super ajustado (só funciona bem em treino) ou Subajustado,(Nao consegue boas taxas de previsao)
+
+ Arvore de Devisao
+-No Raiz
+- No interno
+- No terminais
+- Algoritimo de particao : grau de pureza
+
+ MAtriz de confusao = Verdadeiro Positivo x Falso Negativo X Falso Positivo x Verdadeiro Negativo
+
+### Regressao Logistica
+- Apenas dois estados S ou N. Variavel de resposta é binária.
+Ex:
+ Gasto em camapanha politica x ser eleito. Achar um Ponto que separa se vai ou nao. Gera PROBABILIDADE e partir dai, a resposta binária.
+
+
+### Series Temporais
+- Dados precisam de um ponto temporal: Deve ser relacionado a um intervalo regular de tempo dd/mm//yyy
+- suppoe que exista alguma dependencia entre os intervalor
+
+- proposito:
+- - explicacao/compreeeensao de caracteristicas importantes
+- - Previsao
+  - Controle
+ex de uso: Previsao tempo, Ocupacao Hotel, Epdemia
+pode ser Estacionaria e nao estacionaria.
+
+Pode ser usado algoritmos como ARIMA e SES, Dados mais prox influenciam mais na previsao
+
+VALORES OBSERVADOS (lembrando que pode conter ou nao):
+- Tendencia
+- Sazaonalidade
+- Aleatoriedade
+
 
 ### Mineração de Dados (Data Mining)
 -Processo de descobrir padrões, relações e informações úteis nos dados, muitas vezes usando algoritmos de aprendizado de máquina.
