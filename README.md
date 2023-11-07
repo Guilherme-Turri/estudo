@@ -150,37 +150,23 @@ VALORES OBSERVADOS (lembrando que pode conter ou nao):
 - Sazaonalidade
 - Aleatoriedade
 
-
-### Mineração de Dados (Data Mining)
--Processo de descobrir padrões, relações e informações úteis nos dados, muitas vezes usando algoritmos de aprendizado de máquina.
-
-### Análise de Séries Temporais:
-- Trata da análise de dados que variam ao longo do tempo, sendo comum em previsão e modelagem de tendências.
-
-### Análise de Regressão:
-- Examina a relação entre variáveis independentes e dependentes para fazer previsões ou entender a influência de uma variável sobre outra.
-
-### Análise de Risco (Risk Analysis):
-- Avalia a probabilidade e o impacto de eventos incertos com base em dados históricos.
-
-### Análise de Sentimento (Sentiment Analysis):
-- Classifica o sentimento expresso em dados textuais, geralmente em relação a produtos, serviços ou tópicos específicos.
-
-### Aprendizado Supervisionado
-- Um tipo de aprendizado de máquina em que os algoritmos são treinados com um conjunto de dados rotulados, ou seja, os exemplos de entrada estão associados a saídas desejadas. O objetivo é fazer previsões ou classificações com base nesses exemplos.
-
-### Aprendizado Não Supervisionado
-- Nesse tipo de aprendizado, os algoritmos analisam dados não rotulados para descobrir padrões, estruturas ocultas ou segmentações nos dados. Isso inclui tarefas como clustering e redução de dimensionalidade.
-
-### Redes Neurais Artificiais (Artificial Neural Networks):
-- Modelos inspirados na estrutura do cérebro humano, compostos por neurônios artificiais interconectados, usados em tarefas de aprendizado profundo.
-
-### Aprendizado Profundo (Deep Learning):
-- Uma subárea do aprendizado de máquina que utiliza redes neurais profundas (com várias camadas) para aprender características e representações complexas dos dados, frequentemente usado em visão computacional, processamento de linguagem natural e muito mais.
-
-### Validação Cruzada (Cross-Validation):
-- Técnica usada para avaliar o desempenho do modelo, dividindo os dados em conjuntos de treinamento e teste múltiplas vezes para evitar o viés na avaliação.
-
+### Regressao Linear
+- Previsao com variavel numérica
+- Regressao linear simples
+- - 1 variável explanatória (eixo x) exmplica uma variável dependente(eixo y)
+- Correlacao:
+- - Se uma variavel aumenta (ou diminui), a outra tambem
+- Previsao
+- - Modelo que usa a 'linha de melhor ajuste'
+- Residuo
+- - Diferenca entre o valor real da variável e o valor da linha (reta) criada pelo modelo. Essa pode ser medida ( -, 0, +)
+ - - Valor ajustado é o valor criado pela linha
+- Outliers - Valor 'estourado', fora do padrao.
+- - Deve avaliar se este dado deve ou nao fazer parte do modelo. verificar se nao e erro, ou caso atipico.
+- Extrapolacao
+- - Valor de previsao fora dos dados da variavel explanatória.
+- Regressao linear Multipla
+- - Duas ou mais variaveis explanatórias para prever a variaável dependente.
 
 ## CLOUD  AZURE = ANALISE/ML/IA
 .....
