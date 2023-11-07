@@ -99,7 +99,9 @@ Facilita consulta pois possui dados centralzado. -> Modelo Dimensinal, grande en
 - - ex : Marketing(qual cliente comprou ) Rh (qual o melhot candidato) Financas (prever vendas)
 - Dividido basicamente em 4 tarefas:
 - Classificacao
-- - Prever se chove (True False), tipo de animal(dog, cat, rat)
+- - SIMPLES (Binária) -> Prever se chove (True False), tipo de animal(dog, cat, rat)
+- MultiClasse -> tipo de animal(dog, cat, rat)
+  
 - Regressao
 - - prever numero (quando o mkt vai vender a partir de um investimento)
 - AgrupamentoA :grupar por caracteristicas semmelhantes pode ser Difuso = Cada elemento pertence o grupo segundo uma probabilidade. Modelo Hierarquico = permite que um grupo tenha subgrupos
@@ -167,6 +169,15 @@ VALORES OBSERVADOS (lembrando que pode conter ou nao):
 - - Valor de previsao fora dos dados da variavel explanatória.
 - Regressao linear Multipla
 - - Duas ou mais variaveis explanatórias para prever a variaável dependente.
+
+### Tecninca ensemble 
+- Combina o resultado de muçtiploes modelos em busca de produzir um modelor melhor, sendo:
+- 
+- - Bagging -> Baseado em 'ensacamento': Separa o um dataset em varios dataset menores, a partir de cada ds menor se cria um modelo (arvore de decisao) que depois vai pro 'Votador'. Se for um problema de classifiacao normalmente se usa a maioria, se for um problema de regressao se usa a Média aritimetica. ex: Randon Forest.
+
+ - Boosting: Baseado em Reforco, aprende com o proprio erro. Modelos sao adicionados sequencialmente até que seja minizado, ou atingir a qtd maxima de modelos
+ - 
+ - Stacking: Aprende combinar melhor a previsao de varios modelos.
 
 ## CLOUD  AZURE = ANALISE/ML/IA
 .....
