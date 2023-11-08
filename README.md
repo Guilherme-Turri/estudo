@@ -178,6 +178,54 @@ VALORES OBSERVADOS (lembrando que pode conter ou nao):
  - Boosting: Baseado em Reforco, aprende com o proprio erro. Modelos sao adicionados sequencialmente até que seja minizado, ou atingir a qtd maxima de modelos
  - 
  - Stacking: Aprende combinar melhor a previsao de varios modelos.
+ - -------------------------------------------------------
 
 ## CLOUD  AZURE = ANALISE/ML/IA
 .....
+------------------------------------------------------
+## CRISP-DM
+Metodologia life-cicle projeto Data Science.
+- importante para Organizacao e Planejamento do processo.
+
+### ENTENDIMENTO DO NEGOCIO <--> ENTENDIMENTO DOS DADOS -> PREPARACAO DOS DADOS <--> MODELAGEM --> AVALIACAO +-> IMPLEMENTACAO
+<--> Mao dupla (pode ir e voltar fase/processo).
+--> Mao unica (só avanca fase/processo). 
++-> Mao unica ou volta pra primeira fase/prcesso.
+
+
+### Entendimento do Negocio:
+- Objetivo do projeto: O que fazer com a base dase de dados? Dashboard? Campanha? Insight
+- Critério de Sucesso: Será tralhado com a sua base dados
+- Recursos e Contigenciamento: Definir equipe, como resgatar os dados, definir permissao de acesso.
+- Objetivo do data Mining: Critérios de sucesso: qual sera a medicao: Acurácia? R², etc.
+- Planejamento estrutural do Processo: Definir Prazos
+.....
+
+### Entendimento dos Dados:
+(Geralmente segunda parte mais loonga)
+- Definir variáveis a serem incluidas no projeti
+- Definir se a base de dados é boa e resolve o problema levantado na primeira fase.
+- Fazer analise exploratória dos dados
+- Verificar a qualidade dos dados
+
+### Preparacao dos Dados:
+(Geralmente parte mais loonga)
+- mao na massa
+- transformar o data set original  no data set de modelagem (Selecao, limpeza, normalizacao)
+- Criacao de novas variaveis se necessário
+- Integracao dos dados/Formatacao: Faciliar acesso, organizacao, etc.
+
+### Modelagem:
+fase de escolha de tecnica. Ex: Ckuster? Regressao Linear, Logisita? (depende do que a base de dados oferece e o que se busca)
+Após a construcoa do modelo, é feita a base de avaliacao. Ex: Accuracia? R²? (depende da tecnica escolhida) 
+É comum voltar ao passo anterior.
+
+### Avaliacao:
+Rever criterios de sucesso e verificar se foi atendido. Rever o processo completo. Nessa parte pode voltar para o passo 1.
+
+### Implementacao:
+colocar em producao
+- Planejamento de implatancao, monitoramento e Manutencao.
+- Producao de Relatório final: Conter informacao para futura manutencao ou outro time queira usar.
+Revisao Geral do PROCESSO.
+--------------------------------------
